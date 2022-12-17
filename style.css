@@ -1,0 +1,43 @@
+:root {
+    --clr-white: hsl(0, 0%, 100%);
+    --clr-black: hsl(0, 0%, 0%);
+    --clr-light-gray: hsl(212, 45%, 89%);
+    --clr-grayish-blue: hsl(220, 15%, 55%);
+    --clr-dark-blue: hsl(218, 44%, 22%);
+    --font-family: "Outfit", sans-serif;
+    --font-size: 0.9375rem;
+    --font-weight-standard: 400;
+    --font-weight-bold: 700;
+}
+
+body {
+    --clr-primary: var(--clr-dark-blue);
+    --clr-text: var(--clr-black);
+    --clr-text-faded: var(--clr-light-gray);
+    --clr-background-body: var(--clr-light-gray);
+    --clr-background: var(--clr-white);
+
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    font-weight: var(--font-weight-standard);
+
+    background-color: var(--clr-background-body);
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+@media (max-width > 1440px) {
+
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url("./resources/fonts/Outfit-Regular.ttf");
+    font-weight: var(--font-weight-standard);
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url("./resources/fonts/Outfit-Bold.ttf");
+    font-weight: var(--font-weight-bold);
+}
