@@ -91,11 +91,6 @@ main {
     padding: .2rem .4rem;
 }
 
-@media (max-width > 1440px) {
-
-}
-
-
 /* Custom fonts */
 
 @font-face {
